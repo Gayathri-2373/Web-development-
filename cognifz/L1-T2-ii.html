@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LEVEL1-TASK2-II</title>
+  <style>
+      body{background-color:pink;text-align:center}
+  </style>
+</head>
+
+<body>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1>Alert message</h1>
+  <script>
+    var hour = new Date().getHours();
+    var message;
+
+    if (hour < 12)
+   {
+     message = "Hi everyone, Good Morning!";
+   } 
+   else if (hour < 18)
+  {
+    message = "Hello, Good Afternoon!";
+  } 
+  else {
+    message = "Hi guys,Good Evening!";
+  }
+
+   alert(message);
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LEVEL1-TASK2-I</title>
+  <style>
+      body{background-color:orange;text-align:center}
+  </style>
+
+</head>
+
+<body>
+   <br><br><br><br><br><br>
+   <h1>Button color change</h1> 
+   <h4>when its click</h4>
+   <button id="colorButton" onclick="changeColor()">Click Me</button>
+
+  <script>
+    function changeColor() {
+      var button = document.getElementById("colorButton");
+      button.style.backgroundColor = "green";
+      button.style.color = "yellow";
+    }
+  </script>
+</body>
+
+</html>

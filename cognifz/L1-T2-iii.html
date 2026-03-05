@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LEVEL1-TASK2-III</title>
+   <style>
+      body{background-color:palegreen;text-align:center}
+  </style>
+
+</head>
+
+<body>
+   <h1>Simple Calculator</h1>
+   <br><input type="number" id="num1" placeholder="Enter first number"><br>
+   <br><input type="number" id="num2" placeholder="Enter second number"><br>
+   <br><button onclick="addNumbers()">Add</button>
+
+   <p id="result"></p>
+
+   <script>
+     function addNumbers() {
+     var number1 = parseFloat(document.getElementById("num1").value);
+     var number2 = parseFloat(document.getElementById("num2").value);
+     var sum = number1 + number2;
+     document.getElementById("result").innerHTML = "Result: " + sum;
+     }
+   </script>
+
+</body>
+
+</html>
